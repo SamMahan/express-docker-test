@@ -10,7 +10,6 @@ RUN npm install
 
 COPY . .
 
-
 EXPOSE 3000 
 
 EXPOSE $PORT
@@ -18,5 +17,3 @@ EXPOSE $PORT
 ENV PORT = $PORT 
 
 CMD npm start
-
-
