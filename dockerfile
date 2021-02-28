@@ -13,5 +13,10 @@ COPY . .
 
 EXPOSE 3000 
 
-CMD ["npm", "start"]
+EXPOSE $PORT
+
+ENV PORT = $PORT 
+
+CMD npm start
+
 
