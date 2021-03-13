@@ -1,4 +1,4 @@
-FROM node:latest
+FROM evemintsam/express:latest
 
 RUN mkdir -p /app/src
 
